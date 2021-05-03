@@ -1,0 +1,17 @@
+spring:
+  profiles:
+    active: saucedemo
+
+tests:
+  base-url: https://www.saucedemo.com/
+
+  credentials:
+    default:
+      username: standard_user
+      password: ENC(A671639F87FFC7E57FDA2C5444BE39A51CFB2522FAFB92A5)
+    performance_glitch_user:
+      username: performance_glitch_user
+      password: ENC(20C2520E2F89B77EA759BF04F2491C190D20CFDA69D244CA)
+    problem_user:
+      username: problem_user
+      password: ENC(20C2520E2F89B77EA759BF04F2491C190D20CFDA69D244CA)
